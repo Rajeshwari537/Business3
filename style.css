@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5faff;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #ff914d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+.section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HOME IMAGE */
+.hero-img {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+    max-width: 260px;
+}
+
+/* 🔥 IMAGE SIZE FIX 🔥 */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* LIGHT BACKGROUND */
+.light-bg {
+    background: #fff3e8;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    font-style: italic;
+    border-left: 5px solid #ff914d;
+}
+
+/* FORM */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background: #ff914d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e67e3f;
+}
+
+.feedback-card {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 5px solid #ff914d;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .services {
+        justify-content: center;
+    }
+}

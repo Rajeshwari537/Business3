@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Paws & Care | Pet Sitting</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- INTERNAL CSS (ONLY for Offers Section as required) -->
+<style>
+#offers {
+    background: #eefaf2;
+    border: 2px dashed #2ecc71;
+}
+.offer-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1 style="font-family: 'Trebuchet MS';">Paws & Care 🐾</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#topics">Services</a>
+        <a href="#offers">Offers</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="#feedback">Feedback</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section">
+    <h2>Welcome</h2>
+    <p>
+        We provide professional and loving pet sitting services.
+        Your pets are safe, happy, and cared for while you’re away.
+    </p>
+    <img class="hero-img"
+     src="https://i.etsystatic.com/31749485/r/il/21676c/3974156204/il_fullxfull.3974156204_trwq.jpg"
+     alt="Pet Sitting">
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section light-bg">
+    <h2>About Us</h2>
+    <p>
+        Paws & Care is built on trust, love, and responsibility.
+        We believe every pet deserves personalized attention and care.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="topics" class="section">
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🐶 Dog Sitting</h3>
+<img src="https://img.freepik.com/premium-photo/lots-cute-dogs-together-images-generative-ai_880278-2371.jpg?w=2000">
+<p>Walks, feeding, playtime.</p>
+<p>₹500</p>
+<button onclick="addToCart('Dog Sitting',500)">Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>🐱 Cat Sitting</h3>
+<img src="https://thumbs.dreamstime.com/b/many-cats-sitting-windowsill-watching-world-go-created-generative-ai-276663132.jpg">
+<p>Home care and feeding.</p>
+<p>₹400</p>
+<button onclick="addToCart('Cat Sitting',400)">Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>🏡 Home Visit</h3>
+<img src="https://vetsfurpets-clinic.com/uploads/service/video_image/service1678203907.jpg">
+<p>Medication & checkups.</p>
+<p>₹300</p>
+<button onclick="addToCart('Home Visit',300)">Add to Cart</button>
+</div>
+
+<!-- ✅ NEW PRODUCT -->
+<div class="card">
+<h3>🐦 Bird Sitting</h3>
+<img src="https://storage.needpix.com/rsynced_images/bird-3954938_1280.jpg">
+<p>Special care for birds.</p>
+<p>₹350</p>
+<button onclick="addToCart('Bird Sitting',350)">Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<!-- CART -->
+<section id="cart" class="section light-bg">
+<h2>🛒 Your Cart</h2>
+<ul id="cartItems"></ul>
+<h3>Total Price: ₹<span id="totalPrice">0</span></h3>
+<p id="discountMsg"></p>
+</section>
+
+<!-- OFFERS -->
+<section id="offers" class="section">
+<h2>🎄 Christmas / New Year Special Offers</h2>
+<div class="offer-box">
+<p>🎉 10% OFF on bookings above ₹1000</p>
+<p>🎁 Free pet toy with New Year bookings</p>
+</div>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="section light-bg">
+    <h2>Why Choose Us</h2>
+    <div class="services">
+        <div class="card">
+            <h3>❤️ Loving Care</h3>
+            <img src="https://positiveimpressionsllc.com/product_images/uploaded_images/istock-535542487.jpg" alt="Loving care">
+            <p>We treat every pet like family.</p>
+        </div>
+        <div class="card">
+            <h3>📸 Daily Updates</h3>
+            <img src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/FE76/production/_117724156_pets976.jpg" alt="Daily updates">
+            <p>Photos and messages to keep you worry-free.</p>
+        </div>
+        <div class="card">
+            <h3>🩺 Trusted & Safe</h3>
+            <img src="https://tse2.mm.bing.net/th/id/OIP.5-RcQEqQyMykbgf1fUnHBAHaF7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Safety">
+            <p>Experienced, careful, and reliable service.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section">
+    <h2>Portfolio & Achievements</h2>
+    <div class="services">
+        <div class="card">
+            <h3>🐾 120+ Pets Cared</h3>
+            <img src="https://tse3.mm.bing.net/th/id/OIP.P5ceLueGxKa7DnGdiMj0WwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cared">
+            <p>Happy dogs, cats, and more.</p>
+        </div>
+        <div class="card">
+            <h3>⭐ 5 Years Experience</h3>
+            <img src="https://img1.wsimg.com/blobby/go/d40d6877-2c71-4ef4-adaa-64d0831e9dfa/downloads/1d39l3j69_608693.jpg?ver=1691247593073" alt="Certificate">
+            <p>Trusted by pet parents.</p>
+        </div>
+        <div class="card">
+            <h3>🔁 95% Repeat Clients</h3>
+            <img src="https://www.goatsontheroad.com/wp-content/uploads/2023/04/ways-to-become-a-pet-sitter-720x504.jpg" alt="Clients">
+            <p>Pets love coming back!</p>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section light-bg">
+<h2>Testimonials</h2>
+<button onclick="toggleTestimonials()">Hide / Show Testimonials</button>
+
+<div id="testimonialBox" class="services">
+<div class="card testimonial">
+<p>“Best pet sitting service in Bangalore.”</p>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+<h2>Contact Us</h2>
+<p>Email: rajeshwaripatil753@gmail.com</p>
+<p>Phone: +91 7483273383</p>
+</section>
+
+<!-- FEEDBACK -->
+<section id="feedback" class="section">
+<h2>Feedback</h2>
+
+<form id="feedbackForm">
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Email" required>
+<input type="text" id="mobile" placeholder="Mobile Number" required>
+<textarea id="message" placeholder="Your Feedback" required></textarea>
+
+<button type="submit">Submit</button>
+<button type="button" onclick="clearForm()">Clear Form</button>
+
+<p id="successMsg"></p>
+</form>
+
+<div id="feedbackList"></div>
+</section>
+
+<footer>
+<p>© 2025 Paws & Care Pet Sitting</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
